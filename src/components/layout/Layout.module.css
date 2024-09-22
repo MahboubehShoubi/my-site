@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:#363940;
+    /* height: auto; */
+}
+
+.main{
+    width: 70%;
+    /* min-height: 95vh; */
+    /* background-color:; */
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction:column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .main{
+        width: 100%;
+        /* min-height: 80vh;  */
+    }
+}
